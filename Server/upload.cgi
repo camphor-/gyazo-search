@@ -31,4 +31,4 @@ if create_newid then
     headers = {"X-Gyazo-Id"=>id}
 end
 
-cgi.out(headers){"http://gs.camph.net/#{hash}.png"}
+cgi.out(headers){"http://gs.camph.net/data/#{hash}.png"}
